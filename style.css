@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body {
+    background-color: #F5EFE7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.box-major,
+.box-appears-products,
+.final-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #C4DFDF;
+    border: solid #0C134F;
+}
+
+h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    border-bottom: solid #27374D;
+    color: #F266AB;
+    margin-bottom: 10px;
+    padding: 0 10px 5px 10px;
+}
+
+input {
+    margin-top: 10px;
+    height: 45px;
+    width: 60%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 20px;
+    appearance: none;
+    outline: none;
+    font-size: 20px;
+    color: #F266AB;
+}
+
+input::placeholder {
+    color: #27374D;
+}
+
+.button-inf,
+.button-final {
+    margin: 10px 0;
+    width: 50%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 15px;
+    background: #F266AB;
+    color: #27374D;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+.basket {
+    margin-bottom: 5px;
+}
+
+.box-appears-products {
+    margin-top: 10px;
+    border: none;
+    color: #0C134F;
+}
+
+.final-value {
+    margin-top: 10px;
+}
+
+.button-final {
+    width: 150px;
+    margin: 10px 5px 5px;
+}
+
+tr,
+p {
+    font-size: 25px;
+}
+
+p {
+    padding: 0 10px 5px;
+}
+
+.coin {
+    margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6493/6493694.png">
+    <title>Projeto-lista-de-compras</title>
+</head>
+
+<body>
+    
+    <div class="box-major">
+        <h1>Lista de compras</h1>
+        <input type='text' class='product' placeholder="Nome do produto">
+        <input type='number' class='value-for-product' readonly placeholder="Preço do produto">
+        <button class='button-inf' onclick='products_for_box_products()' disabled>Adicionar produto</button>
+        <img src="./assets/add-to-basket.png" alt="add-basket-img" width="50px" class="basket">
+    </div>
+
+    <div class='box-appears-products'>
+        <table cellspacing="2" border="2" width="200px" cellpadding="5"> 
+            <tr>
+                <td>Produtos :</td>
+                <td>Valor :</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class='final-value'>
+        <img src="./assets/coins.png" alt="coin-img" width="50px" class="coin">
+        <button onclick='sum_final_for_products()' class='button-final' disabled>Valor da compra</button>
+        <img src="./assets/arrow-bottom.png" alt="arrow-bottom-img" width="50px">
+        <p class="final-purchase-price"></p>
+    </div>
+
+</body>
+
+    <script src='./script.js'></script>
+
+</html>
